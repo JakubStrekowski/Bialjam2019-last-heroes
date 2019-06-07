@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ninja : MonoBehaviour
+public class Ninja : Hero
 {
+    private void Awake()
+    {
+        base.Awake();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,6 @@ public class Ninja : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        base.Update();
     }
 }
