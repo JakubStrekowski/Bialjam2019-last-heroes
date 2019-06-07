@@ -49,7 +49,7 @@ public class Ninja : Hero
             if (jumpReady&&Input.GetAxis("Ability") > 0.3)
             {
                 StartCoroutine("JumpCooldown");
-                rb.AddForce(Vector2.up * 80, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * 30, ForceMode2D.Impulse);
                 //TODO Start jump anim
                 isOnGround = false;
                 finishedHolding = false;
