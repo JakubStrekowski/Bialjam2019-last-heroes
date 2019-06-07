@@ -49,8 +49,8 @@ public class Ninja : Hero
             if (jumpReady&&Input.GetAxis("Ability") > 0.3)
             {
                 StartCoroutine("JumpCooldown");
-                Debug.Log("jump A");
                 rb.AddForce(Vector2.up * 80, ForceMode2D.Impulse);
+                //TODO Start jump anim
                 isOnGround = false;
                 finishedHolding = false;
                 didSecondJump = false;
@@ -62,8 +62,8 @@ public class Ninja : Hero
             {
                 if (Input.GetAxis("Ability") > 0.3)
                 {
-                    Debug.Log("jump B");
                     rb.AddForce(Vector2.up * 80, ForceMode2D.Impulse);
+                    //TODO Start  jump anim
                     didSecondJump = true;
                     isOnGround = false;
                     finishedHolding = false;
@@ -71,13 +71,7 @@ public class Ninja : Hero
             }
         }
     }
-
-    public void SetOnGround(bool value)
-    {
-        isOnGround = value;
-        didSecondJump = false;
-    }
-
+    
     IEnumerator JumpCooldown()
     {
         jumpReady = false;
