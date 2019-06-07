@@ -7,9 +7,9 @@ public abstract class Hero : MonoBehaviour
     public float movementSpeed;
     public float maximumSpeed;
     public float accelerateration;
-    private float stoppingRatio=0.7f;
-    public bool isOnGround;
-    Rigidbody2D rb;
+    private float stoppingRatio=0.98f;
+    protected bool isOnGround;
+    protected Rigidbody2D rb;
 
 
     public void Awake()
@@ -22,26 +22,33 @@ public abstract class Hero : MonoBehaviour
         
     }
 
+    
     // Update is called once per frame
-    public void Update()
+    public void FixedUpdate()
     {
-        if (rb.velocity.x > maximumSpeed)
+        if (rb.velocity.x > maximumSpeed*0.8)
         {
-            rb.velocity = new Vector2(maximumSpeed * stoppingRatio, rb.velocity.y);
+            if (rb.velocity.x > maximumSpeed)
+            {
+                rb.velocity = new Vector2(maximumSpeed, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(maximumSpeed * stoppingRatio, rb.velocity.y);
+            }
         }
-        if (rb.velocity.x < -maximumSpeed)
+        if (rb.velocity.x < -maximumSpeed* 0.8)
         {
-            rb.velocity = new Vector2(-maximumSpeed * stoppingRatio, rb.velocity.y);
+            if (rb.velocity.x < -maximumSpeed)
+            {
+                rb.velocity = new Vector2(-maximumSpeed, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(-maximumSpeed * stoppingRatio, rb.velocity.y);
+            }
         }
-        if (Input.GetAxis("Horizontal") > 0)
-        {
-            Debug.Log("moving");
-            rb.velocity = new Vector2(1 * accelerateration, rb.velocity.y);
-        }
-        if (Input.GetAxis("Horizontal") < 0)
-        {
-            rb.velocity = new Vector2(-1 * accelerateration, rb.velocity.y);
-        }
+        
         if (Input.GetAxis("Horizontal" ) == 0)
         {
             if (Mathf.Abs(rb.velocity.x) > 0)
@@ -53,6 +60,7 @@ public abstract class Hero : MonoBehaviour
                 }
             }
         }
+        rb.velocity = new Vector2(  Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
 
     }
 
