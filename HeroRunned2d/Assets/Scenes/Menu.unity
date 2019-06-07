@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a8fef999dd3094080d8885e1eb3098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 0}
 --- !u!1 &158983715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +1668,7 @@ RectTransform:
   m_GameObject: {fileID: 1458596883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1194689554}
   - {fileID: 1131876823}
@@ -1723,8 +1724,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1648904198}
   m_HandleRect: {fileID: 110784182}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1732,7 +1733,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1553648537}
         m_MethodName: ChangeVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1795,6 +1796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a8fef999dd3094080d8885e1eb3098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: bf19524adcac50041bc0466fad952f43, type: 2}
 --- !u!1 &1648904197
 GameObject:
   m_ObjectHideFlags: 0
