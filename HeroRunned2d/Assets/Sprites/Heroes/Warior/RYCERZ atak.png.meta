@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: ab76ba72b0cd621458de0409eb6d81a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2581779116364810596
+    second: RYCERZ atak_0
+  - first:
+      213: 2043027471663928196
+    second: RYCERZ atak_1
+  - first:
+      213: -5508044044428433369
+    second: RYCERZ atak_2
+  - first:
+      213: 2944832794624267686
+    second: RYCERZ atak_3
+  - first:
+      213: -5098676852557916544
+    second: RYCERZ atak_4
+  - first:
+      213: -8594974427968676419
+    second: RYCERZ atak_5
+  - first:
+      213: -1003859195244769748
+    second: RYCERZ atak_6
+  - first:
+      213: 8502114043989835326
+    second: RYCERZ atak_7
+  - first:
+      213: 8224415426884472947
+    second: RYCERZ atak_8
+  - first:
+      213: 7213101129768242794
+    second: RYCERZ atak_9
+  - first:
+      213: 1398882909310678689
+    second: RYCERZ atak_10
+  - first:
+      213: 7953411291398888181
+    second: RYCERZ atak_11
+  - first:
+      213: 8558649061172829524
+    second: RYCERZ atak_12
+  - first:
+      213: -5413695206922023031
+    second: RYCERZ atak_13
+  - first:
+      213: -4961716535655262436
+    second: RYCERZ atak_14
+  - first:
+      213: 7500912096261073507
+    second: RYCERZ atak_15
+  - first:
+      213: 493682737047853818
+    second: RYCERZ atak_16
+  - first:
+      213: 6439209229983569808
+    second: RYCERZ atak_17
+  - first:
+      213: 3834607710823198802
+    second: RYCERZ atak_18
+  - first:
+      213: -6469508505723197779
+    second: RYCERZ atak_19
+  - first:
+      213: 4965294715943618338
+    second: RYCERZ atak_20
+  - first:
+      213: 3315292767727530654
+    second: RYCERZ atak_21
+  - first:
+      213: -3077322228655477220
+    second: RYCERZ atak_22
+  - first:
+      213: 4235981325896699357
+    second: RYCERZ atak_23
+  - first:
+      213: 1431537058997969679
+    second: RYCERZ atak_24
+  - first:
+      213: 6213165582363868633
+    second: RYCERZ atak_25
+  - first:
+      213: -6119642290603808543
+    second: RYCERZ atak_26
+  - first:
+      213: 8609739536482982206
+    second: RYCERZ atak_27
+  - first:
+      213: -1942077433242045686
+    second: RYCERZ atak_28
+  - first:
+      213: -4967393694211308464
+    second: RYCERZ atak_29
+  - first:
+      213: 7069480965328424863
+    second: RYCERZ atak_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RYCERZ atak_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 19
+        width: 120
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500ac9176838a714e980f97b4d707b50
+      internalID: 2581779116364810596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 131
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bdf62118a8e7147847546b4f826aed
+      internalID: 2043027471663928196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 13
+        width: 134
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b7e8d1d04afd2489c82dce5efa08dc
+      internalID: -5508044044428433369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 19
+        width: 147
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8836978b4e94743ba58d0dc1119869
+      internalID: 8224415426884472947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_12
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 143
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e2da0a25e9ba04f908f2a55f6da963
+      internalID: 8558649061172829524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_18
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 86
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de75853c2d030eb4c936ef24d85db44f
+      internalID: 3834607710823198802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 78
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf25d0e6c297c746a537ac4e3140118
+      internalID: -3077322228655477220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 81
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52869ed6181ff684284f71168cf45196
+      internalID: 4235981325896699357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_25
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 59
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef2785b3cd09443876a49306874790
+      internalID: 6213165582363868633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 167
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51490ce5dc8c7584ebba323271440442
+      internalID: 2944832794624267686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RYCERZ atak_4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 17
+        width: 171
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555d49e81264d064bbadaed78dfe7297
+      internalID: -5098676852557916544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b39b02244e1debb42bb279f842867b83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
