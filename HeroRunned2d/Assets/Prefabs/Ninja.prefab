@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2634992323844239928
+--- !u!1 &7435308517340405188
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2634992323844239927}
-  - component: {fileID: 2634992323844239924}
-  - component: {fileID: 2634992323844239925}
-  - component: {fileID: 2634992323844239930}
-  - component: {fileID: 2634992323844239931}
-  m_Layer: 10
-  m_Name: Tank
-  m_TagString: Hero
+  - component: {fileID: 7435308517340405191}
+  - component: {fileID: 7435308517340405190}
+  - component: {fileID: 7435308517340405184}
+  - component: {fileID: 7435308517340405185}
+  - component: {fileID: 7435308517340405187}
+  m_Layer: 8
+  m_Name: Ninja
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2634992323844239927
+  m_IsActive: 0
+--- !u!4 &7435308517340405191
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2634992323844239928}
+  m_GameObject: {fileID: 7435308517340405188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.63, y: 2.67, z: 0}
+  m_LocalPosition: {x: 0.04430716, y: 2.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2719425330846207067}
+  - {fileID: 7435308517493497228}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2634992323844239924
+--- !u!212 &7435308517340405190
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2634992323844239928}
+  m_GameObject: {fileID: 7435308517340405188}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,34 +83,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &2634992323844239925
+--- !u!50 &7435308517340405184
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2634992323844239928}
+  m_GameObject: {fileID: 7435308517340405188}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 40
+  m_Mass: 4
   m_LinearDrag: 0.05
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &2634992323844239930
+--- !u!70 &7435308517340405185
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2634992323844239928}
+  m_GameObject: {fileID: 7435308517340405188}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -120,23 +120,23 @@ CapsuleCollider2D:
   m_Offset: {x: -0.00800395, y: 0.44551516}
   m_Size: {x: 1.9769001, y: 2.8819914}
   m_Direction: 0
---- !u!114 &2634992323844239931
+--- !u!114 &7435308517340405187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2634992323844239928}
+  m_GameObject: {fileID: 7435308517340405188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 409522b1ddffcc349865aadc0f490df4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0dd309c68277fc74781621f5a3f696ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  maximumSpeed: 10
-  accelerateration: 0
-  isWallInRange: 0
---- !u!1 &4574169140417733355
+  maximumSpeed: 50
+  accelerateration: 2
+  groundCheck: {fileID: 7435308517493497228}
+--- !u!1 &7435308517493497229
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,56 +144,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2719425330846207067}
-  - component: {fileID: 2326923196814579117}
-  - component: {fileID: 4664871210749820192}
-  m_Layer: 0
-  m_Name: HitRange
+  - component: {fileID: 7435308517493497228}
+  m_Layer: 9
+  m_Name: GroundDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2719425330846207067
+--- !u!4 &7435308517493497228
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4574169140417733355}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.14, y: -0.18000007, z: 0}
+  m_GameObject: {fileID: 7435308517493497229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2634992323844239927}
+  m_Father: {fileID: 7435308517340405191}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &2326923196814579117
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4574169140417733355}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.42381096, y: 0.75932825}
-  m_Size: {x: 1.3476219, y: 2.8718307}
-  m_Direction: 0
---- !u!114 &4664871210749820192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4574169140417733355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4dab104c286392468add65deb7d8398, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 2634992323844239931}
