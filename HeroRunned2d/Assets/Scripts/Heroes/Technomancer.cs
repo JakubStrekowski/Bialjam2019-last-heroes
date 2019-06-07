@@ -2,17 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Technomancer : MonoBehaviour
+public class Technomancer : Hero
 {
-    // Start is called before the first frame update
-    void Start()
+    float skillCooldownTime=8f;
+    bool skillReady = true;
+    public GameObject timeSphere;
+
+    private void Awake()
     {
-        
+        base.Awake();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        
+        base.FixedUpdate();
+        if (Input.GetAxis("Ability")>0.3f&&skillReady)
+        {
+            StartCoroutine("StopSkill");
+        }
+    }
+
+    IEnumerator StopSkill()
+    {
+        skillReady = false;
+        //todo start animation
+        yield return new WaitForSeconds(1);
+        GameObject ballOfTime= Instantiate(timeSphere, transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(4);
+        Destroy(ballOfTime);
+        yield return new WaitForSeconds(4);
+        skillReady = true;
     }
 }
