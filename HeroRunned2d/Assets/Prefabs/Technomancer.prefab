@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: -8388157241949466074}
   m_Layer: 8
   m_Name: Technomancer
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,6 +223,7 @@ MonoBehaviour:
   head: {fileID: 3231036424853731831}
   body: {fileID: 1177582144619082023}
   legs: {fileID: 27713564968205329}
+  gameMaster: {fileID: 0}
   animator: {fileID: 8026159999414940306}
   timeSphere: {fileID: 3892120426681293616}
 --- !u!1 &8026159999510277796

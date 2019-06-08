@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 6203163774931190571}
   m_Layer: 8
   m_Name: Warrior
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -302,6 +302,7 @@ MonoBehaviour:
   head: {fileID: 1037397116148392996}
   body: {fileID: 4560167676076932602}
   legs: {fileID: 2690054553952332213}
+  gameMaster: {fileID: 0}
   animator: {fileID: 91985267120035482}
 --- !u!1 &5089393857180269293
 GameObject:

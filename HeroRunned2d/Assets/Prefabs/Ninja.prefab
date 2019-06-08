@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 7789928607007661726}
   m_Layer: 8
   m_Name: Ninja
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,6 +233,7 @@ MonoBehaviour:
   head: {fileID: 288547993317163747}
   body: {fileID: 4979025490715014933}
   legs: {fileID: 2290557382683468888}
+  gameMaster: {fileID: 0}
   animator: {fileID: 7789928607007661726}
   groundCheck: {fileID: 8026159999510277797}
 --- !u!95 &7789928607007661726
