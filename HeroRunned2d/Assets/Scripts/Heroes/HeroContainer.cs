@@ -20,7 +20,9 @@ public class HeroContainer : MonoBehaviour
     public GameObject tank;
     public GameObject warrior;
     public GameObject activeHero { get; private set; }
+    public GameObject heroesPanelObj;
     private CameraFollowing cameraFollowing;
+    private HeroesPanel heroesPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class HeroContainer : MonoBehaviour
 
     private void Awake()
     {
+        heroesPanel = heroesPanelObj.GetComponent<HeroesPanel>();
         switch (defaultHero)
         {
             case HeroType.Ninja: activeHero = ninja;
@@ -41,6 +44,7 @@ public class HeroContainer : MonoBehaviour
             case HeroType.Warrior: activeHero = warrior;
                 break;
         }
+        heroesPanel.ChangeActiveHero(defaultHero);
         
         activeHero.SetActive(true);
         cameraFollowing = camera.GetComponent<CameraFollowing>();
@@ -52,23 +56,23 @@ public class HeroContainer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            SwapHero(ninja, activeHero);
+            SwapHero(ninja, activeHero, HeroType.Ninja);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            SwapHero(technomancer, activeHero);
+            SwapHero(technomancer, activeHero, HeroType.Technomancer);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            SwapHero(tank, activeHero);
+            SwapHero(tank, activeHero, HeroType.Tank);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            SwapHero(warrior, activeHero);
+            SwapHero(warrior, activeHero, HeroType.Warrior);
         }
     }
 
-    private void SwapHero(GameObject hero, GameObject previousHero)
+    private void SwapHero(GameObject hero, GameObject previousHero, HeroType heroType)
     {
         if (hero == previousHero)
         {
@@ -80,5 +84,6 @@ public class HeroContainer : MonoBehaviour
         activeHero.SetActive(true);
         cameraFollowing.Target = activeHero.transform;
         previousHero.SetActive(false);
+        heroesPanel.ChangeActiveHero(heroType);
     }
 }

@@ -113,6 +113,7 @@ MonoBehaviour:
   technomancer: {fileID: 8149965234230327137}
   tank: {fileID: 8149965233761460416}
   warrior: {fileID: 8149965234175381565}
+  heroesPanelObj: {fileID: 0}
 --- !u!1 &8149965233611348006
 GameObject:
   m_ObjectHideFlags: 0
