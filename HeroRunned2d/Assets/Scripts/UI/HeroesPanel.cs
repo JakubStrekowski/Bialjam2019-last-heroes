@@ -92,14 +92,14 @@ public class HeroesPanel : MonoBehaviour
 
     private IEnumerator FlashPortraits(Image image)
     {
-        for (float i = 0f; i <= 1f; i += 0.1f)
+        for (float i = 0f; i <= 0.5f; i += 0.1f)
         {
             var color = image.color;
             image.color = new Color(color.r, color.g, color.b, i);
             yield return new WaitForSeconds(0.01f);
         }
 
-        for (float i = 1f; i >= 0f; i -= 0.1f)
+        for (float i = 0.5f; i >= 0f; i -= 0.1f)
         {
             var color = image.color;
             image.color = new Color(color.r, color.g, color.b, i);

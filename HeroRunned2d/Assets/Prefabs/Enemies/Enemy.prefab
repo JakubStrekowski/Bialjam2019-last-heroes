@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3765332990069328151}
   m_Layer: 0
   m_Name: EnemyAttackCollider
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,8 +44,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.6492653}
-  m_Size: {x: 0.5, y: 2.2985306}
+  m_Offset: {x: -1.243166, y: -0.27973175}
+  m_Size: {x: 0.7393074, y: 1.4632854}
   m_Direction: 0
 --- !u!1 &3765332990228108540
 GameObject:
@@ -92,8 +92,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.18369532, y: -0.11689508}
-  m_Size: {x: 0.86739063, y: 2.7033627}
+  m_Offset: {x: -0.08028793, y: -0.69662106}
+  m_Size: {x: 1.7887383, y: 2.4497325}
   m_Direction: 0
 --- !u!114 &3765332990228108543
 MonoBehaviour:
@@ -157,6 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da415841b2f62d4aa6b77a5b330667c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -250,8 +252,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.72233105}
-  m_Size: {x: 2, y: 3.444662}
+  m_Offset: {x: -0.027173996, y: 0.03390646}
+  m_Size: {x: 0.93112946, y: 2.4663744}
   m_Direction: 0
 --- !u!95 &6325802209823831863
 Animator:

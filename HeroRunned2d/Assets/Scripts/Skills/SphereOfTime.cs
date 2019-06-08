@@ -32,6 +32,7 @@ public class SphereOfTime : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            Debug.Log("triggers collide");
             var gameObj = other.gameObject;
             gameObj.SendMessage(nameof(BaseEnemy.Stop));
             frozenEnemies.Add(gameObj);

@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2290557382683468888
 Transform:
   m_ObjectHideFlags: 0
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 7789928607007661726}
   m_Layer: 8
   m_Name: Ninja
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,6 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd309c68277fc74781621f5a3f696ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   movementSpeed: 12
   maximumSpeed: 50
   accelerateration: 2

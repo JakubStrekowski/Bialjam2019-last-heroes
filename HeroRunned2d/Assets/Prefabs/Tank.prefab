@@ -58,8 +58,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.3207664, y: 0.66038513}
-  m_Size: {x: 1.556612, y: 3.5641813}
+  m_Offset: {x: 0.5759615, y: 0.20665383}
+  m_Size: {x: 1.060075, y: 2.6567187}
   m_Direction: 0
 --- !u!1 &4958602455909784339
 GameObject:
@@ -183,8 +183,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17766225, y: 0.20314622}
-  m_Size: {x: 1.6375835, y: 3.3667293}
+  m_Offset: {x: -0.10917449, y: -0.0108783245}
+  m_Size: {x: 0.9869492, y: 2.9386802}
   m_Direction: 0
 --- !u!114 &1121583419649847502
 MonoBehaviour:
@@ -198,12 +198,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 409522b1ddffcc349865aadc0f490df4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   movementSpeed: 6
   maximumSpeed: 6
   accelerateration: 0
   head: {fileID: 3802323183616545159}
   body: {fileID: 3561131654514011160}
   legs: {fileID: 1412558892119022410}
+  gameMaster: {fileID: 0}
   animator: {fileID: 1146205249221315360}
   isWallInRange: 0
 --- !u!95 &1146205249221315360

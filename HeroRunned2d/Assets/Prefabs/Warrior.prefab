@@ -104,8 +104,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.5914421}
-  m_Size: {x: 0.5, y: 2.1828842}
+  m_Offset: {x: 0.225001, y: -0.59144187}
+  m_Size: {x: 0.950002, y: 2.6328864}
   m_Direction: 0
 --- !u!1 &4140133418814943130
 GameObject:
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 6203163774931190571}
   m_Layer: 8
   m_Name: Warrior
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,12 +296,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0900d482587390646b3649ae8efb08de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   movementSpeed: 7
   maximumSpeed: 7
   accelerateration: 0
   head: {fileID: 1037397116148392996}
   body: {fileID: 4560167676076932602}
   legs: {fileID: 2690054553952332213}
+  gameMaster: {fileID: 0}
   animator: {fileID: 91985267120035482}
 --- !u!1 &5089393857180269293
 GameObject:

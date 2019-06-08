@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Hero : MonoBehaviour
 {
+    public GameObject bloodParticle;
     public float movementSpeed;
     public float maximumSpeed;
     public float accelerateration;
@@ -98,6 +99,7 @@ public abstract class Hero : MonoBehaviour
     public void Die()
     {
         timeManager.LoseGame();
+        Instantiate(bloodParticle, transform.position, Quaternion.identity);
         dead = true;
         var heroContainer = GetComponentInParent<HeroContainer>();
         heroContainer.dead = true;
@@ -118,4 +120,13 @@ public abstract class Hero : MonoBehaviour
         var color2 = spriteRenderer.color;
         spriteRenderer.color = new Color(color2.r, color2.g, color2.b, 0f);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Red"))
+        {
+            Die();
+        }
+    }
+
 }

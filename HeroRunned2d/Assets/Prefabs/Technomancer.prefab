@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: -8388157241949466074}
   m_Layer: 8
   m_Name: Technomancer
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,12 +217,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7230ae6fa9b65e842baf963bb812ab3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   movementSpeed: 9
   maximumSpeed: 9
   accelerateration: 0
   head: {fileID: 3231036424853731831}
   body: {fileID: 1177582144619082023}
   legs: {fileID: 27713564968205329}
+  gameMaster: {fileID: 0}
   animator: {fileID: 8026159999414940306}
   timeSphere: {fileID: 3892120426681293616}
 --- !u!1 &8026159999510277796
