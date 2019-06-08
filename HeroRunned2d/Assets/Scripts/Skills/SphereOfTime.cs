@@ -21,7 +21,7 @@ public class SphereOfTime : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            other.gameObject.SendMessage(nameof(Enemy.Stop));
+           // other.gameObject.SendMessage(nameof(Enemy.Stop));
         }
     }
 }

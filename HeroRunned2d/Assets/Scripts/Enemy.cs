@@ -7,9 +7,16 @@ public class Enemy : MonoBehaviour
     public Transform[] waypoints;
     public float movementSpeed = 3f;
     public Rigidbody2D rb;
+    public Collider2D attackCollider;
+
     int currentWaypoint;
     float moveDirection;
-
+    [HideInInspector]
+    public bool ismoving = true;
+    [HideInInspector]
+    public bool heroInRange = false;
+    [HideInInspector]
+    public bool attackWithDamage = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,25 +26,57 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance =Mathf.Abs( waypoints[currentWaypoint].position.x - transform.position.x);
-        
-        if (distance < 0.2f)
+        if (ismoving)
         {
-            currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
-            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            float distance = Mathf.Abs(waypoints[currentWaypoint].position.x - transform.position.x);
+            if (distance < 0.2f)
+            {
+                currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
+                StartCoroutine("WaitBeforeSwitchDirection");
+            }
+            float direction = (waypoints[currentWaypoint].position.x - transform.position.x);
+            if (direction < 0)
+            {
+                moveDirection = -1;
+            }
+            else
+            {
+                moveDirection = 1;
+            }
+            rb.velocity = new Vector2(moveDirection * movementSpeed, rb.velocity.y);
         }
+    }
 
-        float direction = (waypoints[currentWaypoint].position.x - transform.position.x);
-        if (direction < 0)
+
+    IEnumerator WaitBeforeSwitchDirection()
+    {
+        ismoving = false;
+        //TODO start idle animation
+        yield return new WaitForSeconds(2f);
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        //TODO start moving animation
+        ismoving = true;
+    }
+
+    IEnumerator Attack()
+    {
+        while (heroInRange)
         {
-            moveDirection = -1;
+            attackCollider.enabled = true;
+            ismoving = false;
+            if (attackWithDamage)
+            {
+                Debug.Log("attacking with hit");
+            }
+            else
+            {
+                attackCollider.enabled = false;
+                Debug.Log("attacking with miss");
+            }
+            //TODO start attack animation
+            
+            yield return new WaitForSeconds(2f);
         }
-        else
-        {
-            moveDirection = 1;
-        }
-        
-        rb.velocity = new Vector2(moveDirection * movementSpeed, rb.velocity.y);
     }
 
 }
