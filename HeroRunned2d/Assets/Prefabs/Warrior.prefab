@@ -45,12 +45,12 @@ GameObject:
   - component: {fileID: 91985267120035482}
   - component: {fileID: 6203163774931190571}
   m_Layer: 8
-  m_Name: Warrior 1
+  m_Name: Warrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4140133419195691945
 Transform:
   m_ObjectHideFlags: 0
@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4140133419195691951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.18, y: 1.01, z: 0}
+  m_LocalPosition: {x: -0.662928, y: 1.0052553, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4140133418814943131}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 6203163775108605615}
   m_Layer: 0
   m_Name: SwordHitBox
-  m_TagString: Untagged
+  m_TagString: EnemyKiller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
