@@ -46,21 +46,11 @@ public class Tank : Hero
     {
         GameObject wall = wallToDestroy;
         animator.SetBool("Hit", true);
-        wall.GetComponent<Animator>().SetTrigger("Destroy");
-        //animator.Play("Hit");
-        //todo start wall destroy animation
         if (wall != null)
         {
-            yield return new WaitForSeconds(1);
-
-            wall.GetComponent<Collider2D>().enabled = false;
+            wall.GetComponent<DestroyableWall>().StartDestroying();
         }
-            yield return new WaitForSeconds(1);
-        if (wall != null)
-        {
-            Destroy(wall);
-        }
-
+        yield return new WaitForSeconds(1.3f);
         animator.SetBool("Hit", false);
         Debug.Log("Hit anima");
         punchReady = true;
