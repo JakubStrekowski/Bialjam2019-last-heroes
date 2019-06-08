@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : BaseEnemy
 {
+    bool isFrozen=false;
     public Transform[] waypoints;
     public float movementSpeed = 3f;
     public Rigidbody2D rb;
@@ -28,7 +29,7 @@ public class Enemy : MonoBehaviour
     {
         animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
 
-        if (ismoving)
+        if (ismoving&&!isFrozen)
         {
             float distance = Mathf.Abs(waypoints[currentWaypoint].position.x - transform.position.x);
             if (distance < 0.2f)
@@ -63,6 +64,7 @@ public class Enemy : MonoBehaviour
 
     IEnumerator Attack()
     {
+        if(!isFrozen)
         while (heroInRange)
         {
             attackCollider.enabled = true;
@@ -111,4 +113,13 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public override void Stop()
+    {
+        isFrozen = true;
+    }
+
+    public override void Resume()
+    {
+        isFrozen = false;
+    }
 }
