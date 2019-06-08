@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8026159999414940307}
   - component: {fileID: 8026159999414940306}
   m_Layer: 8
-  m_Name: Technomancer
+  m_Name: Technomancer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,6 +137,9 @@ MonoBehaviour:
   movementSpeed: 5
   maximumSpeed: 50
   accelerateration: 2
+  head: {fileID: 0}
+  body: {fileID: 0}
+  legs: {fileID: 0}
   animator: {fileID: 8026159999414940306}
   groundCheck: {fileID: 8026159999510277797}
 --- !u!95 &8026159999414940306
