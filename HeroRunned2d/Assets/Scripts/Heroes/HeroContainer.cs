@@ -21,6 +21,7 @@ public class HeroContainer : MonoBehaviour
     public GameObject warrior;
     public GameObject activeHero { get; private set; }
     public GameObject heroesPanelObj;
+    public bool dead = false;
     private CameraFollowing cameraFollowing;
     private HeroesPanel heroesPanel;
 
@@ -32,6 +33,11 @@ public class HeroContainer : MonoBehaviour
 
     private void Awake()
     {
+        if (dead)
+        {
+            return;
+        }
+        
         heroesPanel = heroesPanelObj.GetComponent<HeroesPanel>();
         switch (defaultHero)
         {
