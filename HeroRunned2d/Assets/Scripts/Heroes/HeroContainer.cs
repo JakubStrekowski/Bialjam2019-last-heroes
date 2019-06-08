@@ -19,7 +19,7 @@ public class HeroContainer : MonoBehaviour
     public GameObject technomancer;
     public GameObject tank;
     public GameObject warrior;
-    public GameObject activeHero;
+    public GameObject activeHero { get; private set; }
     private CameraFollowing cameraFollowing;
 
     // Start is called before the first frame update

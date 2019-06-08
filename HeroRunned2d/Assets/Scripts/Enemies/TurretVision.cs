@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
 
-public class TurretVision : Enemy
+public class TurretVision : BaseEnemy
 {
     public float shotDelay = 1f;
     private float radius;
