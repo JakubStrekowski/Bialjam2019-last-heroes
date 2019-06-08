@@ -33,11 +33,6 @@ public class HeroContainer : MonoBehaviour
 
     private void Awake()
     {
-        if (dead)
-        {
-            return;
-        }
-        
         heroesPanel = heroesPanelObj.GetComponent<HeroesPanel>();
         switch (defaultHero)
         {
@@ -60,6 +55,10 @@ public class HeroContainer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (dead)
+        {
+            return;
+        }
         if (Input.GetKey(KeyCode.W))
         {
             SwapHero(ninja, activeHero, HeroType.Ninja);
