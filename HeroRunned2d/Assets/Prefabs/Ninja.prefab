@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 8026159999414940309}
   - component: {fileID: 8026159999414940308}
   - component: {fileID: 8026159999414940307}
-  - component: {fileID: 8026159999414940306}
   m_Layer: 8
-  m_Name: Technomancer
+  m_Name: Technomancer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,8 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2325060922132724833, guid: cd4350020d439f644a0573903d17d4bd,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f2ce235062acb04b9672995fc4369ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,27 +135,11 @@ MonoBehaviour:
   movementSpeed: 5
   maximumSpeed: 50
   accelerateration: 2
-  animator: {fileID: 8026159999414940306}
+  head: {fileID: 0}
+  body: {fileID: 0}
+  legs: {fileID: 0}
+  animator: {fileID: 0}
   groundCheck: {fileID: 8026159999510277797}
---- !u!95 &8026159999414940306
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8026159999414940305}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b9bc5ebad752a954c9c76055c1ceea14, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8026159999510277796
 GameObject:
   m_ObjectHideFlags: 0
