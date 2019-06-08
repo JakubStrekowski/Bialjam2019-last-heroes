@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeroSwap : MonoBehaviour
+public class HeroContainer : MonoBehaviour
 {
     public enum HeroType
     {
@@ -19,8 +19,8 @@ public class HeroSwap : MonoBehaviour
     public GameObject technomancer;
     public GameObject tank;
     public GameObject warrior;
+    public GameObject activeHero;
     private CameraFollowing cameraFollowing;
-    private GameObject activeHero;
 
     // Start is called before the first frame update
     void Start()
