@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public abstract class Hero : MonoBehaviour
 {
@@ -99,6 +101,21 @@ public abstract class Hero : MonoBehaviour
         dead = true;
         var heroContainer = GetComponentInParent<HeroContainer>();
         heroContainer.dead = true;
-        // todo: add dead animation
+        StartCoroutine(nameof(FlashHero));
+    }
+
+    private IEnumerator FlashHero()
+    {
+        var spriteRenderer = GetComponent<SpriteRenderer>();
+        for (var i = 0; i < 3; i++)
+        {
+            var color = spriteRenderer.color;
+            spriteRenderer.color = new Color(color.r, color.g, color.b, 0f);
+            yield return new WaitForSeconds(0.15f);
+            spriteRenderer.color = new Color(color.r, color.g, color.b, 100f);
+            yield return new WaitForSeconds(0.15f);
+        }
+        var color2 = spriteRenderer.color;
+        spriteRenderer.color = new Color(color2.r, color2.g, color2.b, 0f);
     }
 }
