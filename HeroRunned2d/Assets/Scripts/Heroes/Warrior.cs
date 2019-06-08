@@ -2,17 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Warrior : MonoBehaviour
+public class Warrior : Hero
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    bool isAbilityReady=true;
+
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetAxis("Ability") > 0.3f && isAbilityReady)
+        {
+            StartCoroutine("AttackSkill");
+        }
+    }
+
+    IEnumerator AttackSkill()
+    {
+        isAbilityReady = false;
+        GetComponent<Animator>().SetBool("IsAttacking", true);
+        //todo start animation
+        yield return new WaitForSeconds(0.36f);
+        GetComponent<Animator>().SetBool("IsAttacking", false);
+        isAbilityReady = true;
     }
 }

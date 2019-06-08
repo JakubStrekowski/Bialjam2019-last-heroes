@@ -33,7 +33,6 @@ public class Ninja : Hero
     }
     private void FixedUpdate()
     {
-
         isOnGround = Physics2D.OverlapCircle(groundCheck.position, 0.4f, groundLayer);
         if (isOnGround)
         {
