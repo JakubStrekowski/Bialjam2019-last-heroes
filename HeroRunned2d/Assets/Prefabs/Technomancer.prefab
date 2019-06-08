@@ -217,6 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7230ae6fa9b65e842baf963bb812ab3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
+    type: 3}
   movementSpeed: 9
   maximumSpeed: 9
   accelerateration: 0

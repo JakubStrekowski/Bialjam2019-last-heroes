@@ -10,7 +10,6 @@ public class TurretVision : BaseEnemy
     private float radius;
     private IEnumerator coroutine;
     private bool running = true;
-
     // Start is called before the first frame update
     void Awake()
     {

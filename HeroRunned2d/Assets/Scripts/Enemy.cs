@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : BaseEnemy
 {
+    public GameObject bloodParticle;
     bool isFrozen=false;
     public Transform[] waypoints;
     public float movementSpeed = 3f;
@@ -77,6 +78,7 @@ public class Enemy : BaseEnemy
             }
             else
             {
+                    attackCollider.gameObject.SetActive(false);
                 attackCollider.enabled = false;
                 animator.SetTrigger("Attack");
 
@@ -86,7 +88,8 @@ public class Enemy : BaseEnemy
             //TODO start attack animation
             
             yield return new WaitForSeconds(2f);
-        }
+                attackCollider.gameObject.SetActive(true);
+            }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -99,6 +102,7 @@ public class Enemy : BaseEnemy
 
     private void Die()
     {
+        Instantiate(bloodParticle, transform.position, Quaternion.identity);
         GetComponent<Collider2D>().enabled = false;
         rb.simulated = false;
         StartCoroutine("DeathAnimation");
