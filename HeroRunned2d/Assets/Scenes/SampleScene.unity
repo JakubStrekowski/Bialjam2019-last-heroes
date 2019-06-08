@@ -147,6 +147,9 @@ MonoBehaviour:
   movementSpeed: 3
   maximumSpeed: 3
   accelerateration: 0
+  head: {fileID: 0}
+  body: {fileID: 0}
+  legs: {fileID: 0}
   animator: {fileID: 145693711}
 --- !u!1 &284886806
 GameObject:
@@ -309,6 +312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Warrior
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026159999414940305, guid: f268a01002c591f40bd1dbc54d30095d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hero
       objectReference: {fileID: 0}
     - target: {fileID: 8026159999414940311, guid: f268a01002c591f40bd1dbc54d30095d,
         type: 3}
