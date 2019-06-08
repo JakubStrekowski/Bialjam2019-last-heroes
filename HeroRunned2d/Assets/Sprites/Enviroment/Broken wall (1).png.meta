@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: f9593867feec4b8418e99fd7f88c15da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3086553752241569644
+    second: Broken wall (1)_0
+  - first:
+      213: -5680568470979886196
+    second: Broken wall (1)_1
+  - first:
+      213: 3172398007182819979
+    second: Broken wall (1)_2
+  - first:
+      213: 6652932024006351186
+    second: Broken wall (1)_3
+  - first:
+      213: 2186462268904881174
+    second: Broken wall (1)_4
+  - first:
+      213: -5778137419130672478
+    second: Broken wall (1)_9
+  - first:
+      213: -7399684549106370355
+    second: Broken wall (1)_11
+  - first:
+      213: -5925506170230693805
+    second: Broken wall (1)_12
+  - first:
+      213: 1455592690817637805
+    second: Broken wall (1)_13
+  - first:
+      213: 4614048979111623225
+    second: Broken wall (1)_14
+  - first:
+      213: 2582232993461472399
+    second: Broken wall (1)_15
+  - first:
+      213: -8640136377857960894
+    second: Broken wall (1)_16
+  - first:
+      213: 5819954673048647705
+    second: Broken wall (1)_17
+  - first:
+      213: 5906723653413153656
+    second: Broken wall (1)_19
+  - first:
+      213: -436214068248546429
+    second: Broken wall (1)_20
+  - first:
+      213: -1136603647981178517
+    second: Broken wall (1)_23
+  - first:
+      213: 1096267628825433348
+    second: Broken wall (1)_28
+  - first:
+      213: 7761362523912486887
+    second: Broken wall (1)_32
+  - first:
+      213: -3353372703797245705
+    second: Broken wall (1)_33
+  - first:
+      213: 480230307850797960
+    second: Broken wall (1)_34
+  - first:
+      213: 5262479457336918503
+    second: Broken wall (1)_36
+  - first:
+      213: 2756339615589609285
+    second: Broken wall (1)_5
+  - first:
+      213: -8549228392540048760
+    second: Broken wall (1)_6
+  - first:
+      213: 6881044705012675122
+    second: Broken wall (1)_7
+  - first:
+      213: -3705311341952913693
+    second: Broken wall (1)_8
+  - first:
+      213: -7298752676373949015
+    second: Broken wall (1)_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Broken wall (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 22
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679ae55548f38a42bdae660f65bc4fe
+      internalID: 3086553752241569644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 300
+        width: 27
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591545084c2f81647862a8460e3097c0
+      internalID: -5680568470979886196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 23
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66584346abc2b14e95607402ce44d13
+      internalID: 3172398007182819979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 300
+        width: 25
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057238f28b8b14a48a2c426ff0602639
+      internalID: 6652932024006351186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 194
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2d9da408d870440a1fbac578a2e6fc
+      internalID: 1455592690817637805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41be0d1215b4844e9cdca8c4a46f3ea
+      internalID: 4614048979111623225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 163
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bdb69b9790d0341ade57bb43c317a7
+      internalID: 2582232993461472399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 65
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316bc1d71c95e3f4689e86a827ce6f5b
+      internalID: -8640136377857960894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_17
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 106
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95b1c4a07e82d4081aa122c68dcdd6
+      internalID: 5819954673048647705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_33
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 15
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3a0c6c96e55d64bb89270fea30a303
+      internalID: -3353372703797245705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_5
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1
+        width: 77
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6591dbbb6994bdd4c813478d6164a744
+      internalID: 2756339615589609285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 73
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3161116b5742f164985294d65ea6741c
+      internalID: -8549228392540048760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 100
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f04c07307f67c848bf272644c93f271
+      internalID: 6881044705012675122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 299
+        width: 31
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed2ea9b4afb96a448bb693afcb84aa7
+      internalID: 2186462268904881174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_8
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 300
+        width: 39
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088ff07c95378b48a6dd18df76d1060
+      internalID: -3705311341952913693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 298
+        width: 49
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93929491376bb5a40bcec72b4545bde2
+      internalID: -5778137419130672478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Broken wall (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 300
+        width: 51
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef70c5ae24c60264d91c279384407845
+      internalID: -7298752676373949015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9ad4383822567c8428357d6b6d5bc1e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
