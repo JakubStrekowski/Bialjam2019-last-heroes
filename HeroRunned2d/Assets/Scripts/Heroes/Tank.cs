@@ -45,7 +45,9 @@ public class Tank : Hero
     IEnumerator PrepareToDestroy()
     {
         GameObject wall = wallToDestroy;
-        //TODO start punching animation
+        animator.SetBool("Hit", true);
+
+        //animator.Play("Hit");
         //todo start wall destroy animation
         if (wall != null)
         {
@@ -56,8 +58,11 @@ public class Tank : Hero
         {
             Destroy(wall);
         }
-        
+
+        animator.SetBool("Hit", false);
+        Debug.Log("Hit anima");
         punchReady = true;
+
     }
 
 
