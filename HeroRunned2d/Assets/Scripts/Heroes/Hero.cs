@@ -98,6 +98,9 @@ public abstract class Hero : MonoBehaviour
 
     public void Die()
     {
+        rb.velocity = Vector2.zero;
+        GetComponent<Rigidbody2D>().simulated = false;
+        GetComponent<Collider2D>().enabled = false;
         timeManager.LoseGame();
         Instantiate(bloodParticle, transform.position, Quaternion.identity);
         dead = true;
