@@ -163,6 +163,7 @@ MonoBehaviour:
   movementSpeed: 2.3
   rb: {fileID: 8979559880751031011}
   attackCollider: {fileID: 3765332990069328151}
+  animator: {fileID: 6325802209823831863}
   ismoving: 1
   heroInRange: 0
   attackWithDamage: 1
