@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2f32609f143d84c988123534e24571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 4805793435916068493}
   shotDelay: 1
 --- !u!58 &1239606859
 CircleCollider2D:

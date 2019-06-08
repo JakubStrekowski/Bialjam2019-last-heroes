@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 757369010542071364}
   - component: {fileID: 3166211373522476390}
   - component: {fileID: 7487383441679774725}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TankReach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
