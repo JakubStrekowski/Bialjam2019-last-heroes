@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
 
-public class TurretVision : MonoBehaviour
+public class TurretVision : BaseEnemy
 {
     public float shotDelay = 1f;
     private float radius;
@@ -22,17 +22,17 @@ public class TurretVision : MonoBehaviour
     void Update()
     {
     }
-    /*
-    public override void Stop()
-    {
-        running = false;
-    }
 
-    public override void Resume()
-    {
-        running = true;
-    }
-    */
+    //public override void Stop()
+    //{
+    //    running = false;
+    //}
+
+    //public override void Resume()
+    //{
+    //    running = true;
+    //}
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (running && other.CompareTag("Hero"))

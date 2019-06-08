@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 85ff367e38c73f34cb037d3948d0e114
+guid: b5dcf81b7849ba64583f7661612ccc22
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7441385479339624998
+    second: TANK start pushing_0
+  - first:
+      213: 4633180052520683816
+    second: TANK start pushing_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -82,11 +88,53 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TANK start pushing_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 6
+        width: 118
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eefe8473da0ab4d9119e8169d91a99
+      internalID: 7441385479339624998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TANK start pushing_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 137
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296775091e89fd4bbf9ba0e312740f4
+      internalID: 4633180052520683816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2f96b6f55bbeadd4bbc2bcbd53fdcd97
+    spriteID: a35efa754754c564d9d4e3bdb9949bc0
     internalID: 0
     vertices: []
     indices: 
