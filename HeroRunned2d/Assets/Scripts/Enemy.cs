@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
         if (distance < 0.2f)
         {
             currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
         float direction = (waypoints[currentWaypoint].position.x - transform.position.x);
