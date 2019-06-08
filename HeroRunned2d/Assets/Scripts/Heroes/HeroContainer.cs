@@ -58,15 +58,15 @@ public class HeroContainer : MonoBehaviour
         {
             SwapHero(ninja, activeHero, HeroType.Ninja);
         }
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             SwapHero(technomancer, activeHero, HeroType.Technomancer);
         }
-        if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
             SwapHero(tank, activeHero, HeroType.Tank);
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             SwapHero(warrior, activeHero, HeroType.Warrior);
         }
