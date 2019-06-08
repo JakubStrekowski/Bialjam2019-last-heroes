@@ -23,15 +23,15 @@ public class TurretVision : BaseEnemy
     {
     }
 
-    //public override void Stop()
-    //{
-    //    running = false;
-    //}
+    public override void Stop()
+    {
+        running = false;
+    }
 
-    //public override void Resume()
-    //{
-    //    running = true;
-    //}
+    public override void Resume()
+    {
+        running = true;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
