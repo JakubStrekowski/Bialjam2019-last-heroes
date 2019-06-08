@@ -79,4 +79,28 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("EnemyKiller"))
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        GetComponent<Collider2D>().enabled = false;
+        rb.simulated = false;
+        StartCoroutine("DeathAnimation");
+    }
+
+    IEnumerator DeathAnimation()
+    {
+        Debug.Log("Death anim start");
+        ismoving = false;
+        //TODO start death animation
+        yield return new WaitForSeconds(0.8f);
+        Destroy(gameObject);
+    }
+
 }
