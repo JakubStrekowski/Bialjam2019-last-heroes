@@ -1,27 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class Hero : MonoBehaviour
 {
     public float movementSpeed;
     public float maximumSpeed;
     public float accelerateration;
+    public Transform head;
+    public Transform body;
+    public Transform legs;
     private float stoppingRatio=0.98f;
     protected bool isOnGround;
     protected Rigidbody2D rb;
-
 
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
     
     // Update is called once per frame
     public void FixedUpdate()
@@ -61,11 +61,10 @@ public abstract class Hero : MonoBehaviour
             }
         }
         rb.velocity = new Vector2(  Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
-
     }
 
-    void OnDeath()
+    public void Die()
     {
-
+        Debug.Log("Dead");
     }
 }
