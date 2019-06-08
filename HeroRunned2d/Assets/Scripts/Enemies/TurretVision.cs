@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class TurretVision : BaseEnemy
 {
+    public Animator animator;
+
     public float shotDelay = 1f;
     private float radius;
     private IEnumerator coroutine;
@@ -34,6 +36,7 @@ public class TurretVision : BaseEnemy
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
         if (running && other.CompareTag("Hero"))
         {
             coroutine = HandleHeroCollision(other.gameObject.GetComponent<Hero>());
@@ -58,6 +61,8 @@ public class TurretVision : BaseEnemy
             RaycastHit2D raycastHit = Physics2D.Raycast(position, hero.head.position - position, radius, playerMask);
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
+                animator.SetTrigger("Hit");
+
                 hero.Die();
                 break;
             }
@@ -65,6 +70,8 @@ public class TurretVision : BaseEnemy
             raycastHit = Physics2D.Raycast(position, hero.body.position - position, radius, playerMask);
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
+                animator.SetTrigger("Hit");
+
                 hero.Die();
                 break;
             }
@@ -72,6 +79,8 @@ public class TurretVision : BaseEnemy
             raycastHit = Physics2D.Raycast(position, hero.legs.position - position, radius, playerMask);
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
+                animator.SetTrigger("Hit");
+
                 hero.Die();
                 break;
             }
