@@ -53,6 +53,12 @@ public class TimeManager : MonoBehaviour
         TimeToLose = 0;
     }
 
+    public void NewLevel()
+    {
+        Debug.Log("Level finished");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     IEnumerator CountDown()
     {
         while (TimeToLose > 0)
