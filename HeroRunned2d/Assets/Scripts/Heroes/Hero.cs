@@ -11,7 +11,9 @@ public abstract class Hero : MonoBehaviour
     private float stoppingRatio=0.98f;
     protected bool isOnGround;
     protected Rigidbody2D rb;
-
+    public Animator animator;
+    private bool isFacingRight=true;
+	
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,6 +28,9 @@ public abstract class Hero : MonoBehaviour
     // Update is called once per frame
     public void FixedUpdate()
     {
+        
+        animator.SetFloat("Speed",Mathf.Abs(rb.velocity.x));
+
         if (rb.velocity.x > maximumSpeed*0.8)
         {
             if (rb.velocity.x > maximumSpeed)
@@ -58,6 +63,23 @@ public abstract class Hero : MonoBehaviour
                 {
                     rb.velocity = new Vector2(0, rb.velocity.y);
                 }
+            }
+        }
+
+        if (Input.GetAxis("Horizontal")>0)
+        {
+            if (!isFacingRight)
+            {
+                isFacingRight=!isFacingRight;
+                transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            }
+        }
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            if (isFacingRight)
+            {
+                isFacingRight = !isFacingRight;
+                transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             }
         }
         rb.velocity = new Vector2(  Input.GetAxis("Horizontal") * movementSpeed, rb.velocity.y);
