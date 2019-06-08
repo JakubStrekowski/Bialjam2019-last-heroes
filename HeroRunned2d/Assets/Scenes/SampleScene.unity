@@ -264,6 +264,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284886806}
   m_CullTransparentMesh: 0
+--- !u!4 &324753494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8026159999414940311, guid: f5f45877c5742b242bbc7a3f51f26822,
+    type: 3}
+  m_PrefabInstance: {fileID: 766038455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 4
-  Target: {fileID: 0}
+  Target: {fileID: 324753494}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -697,7 +703,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 45.35
+  m_fontSize: 44.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1026,12 +1032,12 @@ PrefabInstance:
     - target: {fileID: 8747166153769912195, guid: 53e082fad4532e24589ae8c38250f221,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.53
+      value: -4.22
       objectReference: {fileID: 0}
     - target: {fileID: 8747166153769912195, guid: 53e082fad4532e24589ae8c38250f221,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.73
+      value: 1.83
       objectReference: {fileID: 0}
     - target: {fileID: 8747166153769912195, guid: 53e082fad4532e24589ae8c38250f221,
         type: 3}

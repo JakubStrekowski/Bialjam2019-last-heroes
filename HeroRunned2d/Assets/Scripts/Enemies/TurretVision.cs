@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
 
-public class TurretVision : MonoBehaviour
+public class TurretVision : Enemy
 {
     public float shotDelay = 1f;
     private float radius;
     private IEnumerator coroutine;
+    private bool running = true;
 
     // Start is called before the first frame update
     void Awake()
@@ -22,9 +23,19 @@ public class TurretVision : MonoBehaviour
     {
     }
 
+    //public override void Stop()
+    //{
+    //    running = false;
+    //}
+
+    //public override void Resume()
+    //{
+    //    running = true;
+    //}
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Hero"))
+        if (running && other.CompareTag("Hero"))
         {
             coroutine = HandleHeroCollision(other.gameObject.GetComponent<Hero>());
             StartCoroutine(coroutine);
@@ -33,7 +44,7 @@ public class TurretVision : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Hero") && coroutine != null)
+        if (coroutine != null && other.CompareTag("Hero"))
         {
             StopCoroutine(coroutine);
         }
@@ -41,7 +52,7 @@ public class TurretVision : MonoBehaviour
 
     private IEnumerator HandleHeroCollision(Hero hero)
     {
-        while (true)
+        while (running)
         {
             var position = transform.position;
             var playerMask = LayerMask.GetMask("Player", "Wall");

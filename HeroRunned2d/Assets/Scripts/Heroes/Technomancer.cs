@@ -7,6 +7,7 @@ public class Technomancer : Hero
     float skillCooldownTime=8f;
     bool skillReady = true;
     public GameObject timeSphere;
+   
 
     private void Awake()
     {
@@ -16,7 +17,7 @@ public class Technomancer : Hero
     private void FixedUpdate()
     {
         base.FixedUpdate();
-        if (Input.GetAxis("Ability")>0.3f&&skillReady)
+        if (Input.GetAxis("Ability") > 0.3f && skillReady)
         {
             StartCoroutine("StopSkill");
         }
@@ -25,12 +26,20 @@ public class Technomancer : Hero
     IEnumerator StopSkill()
     {
         skillReady = false;
+        animator.SetBool("IsStopTime", true);
+        timeSphere.GetComponent<Animator>().SetBool("StopTime", true);
+
         //todo start animation
         yield return new WaitForSeconds(1);
-        GameObject ballOfTime= Instantiate(timeSphere, transform.position, Quaternion.identity);
+        timeSphere.SetActive(true);
+        animator.SetBool("IsStopTime", false);
+        timeSphere.GetComponent<Animator>().SetBool("StopTime", false);
+
+
         yield return new WaitForSeconds(4);
-        Destroy(ballOfTime);
+        timeSphere.SetActive(false);
         yield return new WaitForSeconds(4);
         skillReady = true;
+
     }
 }
