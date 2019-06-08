@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8026159999414940310}
   - component: {fileID: 8026159999414940309}
   - component: {fileID: 8026159999414940308}
-  - component: {fileID: 8026159999414940307}
   - component: {fileID: 6291771166934701988}
+  - component: {fileID: 5101301973353901072}
   m_Layer: 8
   m_Name: Warrior
   m_TagString: Untagged
@@ -122,23 +122,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.1513852, y: 0.04704261}
   m_Size: {x: 1.2903006, y: 2.4283452}
   m_Direction: 0
---- !u!114 &8026159999414940307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8026159999414940305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dd309c68277fc74781621f5a3f696ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 5
-  maximumSpeed: 50
-  accelerateration: 2
-  animator: {fileID: 6291771166934701988}
-  groundCheck: {fileID: 8026159999510277797}
 --- !u!95 &6291771166934701988
 Animator:
   serializedVersion: 3
@@ -158,6 +141,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5101301973353901072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026159999414940305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0900d482587390646b3649ae8efb08de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 0
+  maximumSpeed: 0
+  accelerateration: 0
+  head: {fileID: 0}
+  body: {fileID: 0}
+  legs: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1 &8026159999510277796
 GameObject:
   m_ObjectHideFlags: 0
