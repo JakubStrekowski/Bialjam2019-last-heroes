@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:HeroRunned2d/Assets/Animations.meta
 guid: 103b101e387d15f4aa9da48e5dfffd5d
+=======
+guid: aa6dc2cea2698c945864a0911830413d
+>>>>>>> 55091c2... Add turret with gun rotate:HeroRunned2d/Assets/Prefabs.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
