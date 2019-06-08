@@ -28,7 +28,7 @@ public class TimeManager : MonoBehaviour
     bool gameLost = false;
     private void Start()
     {
-        time = 5;
+        time = 60;
         StartCoroutine("CountDown");
     }
     private void Awake()
@@ -44,10 +44,13 @@ public class TimeManager : MonoBehaviour
         }
     }
 
-    private void LoseGame()
+    public void LoseGame()
     {
+        gameLost = true;
         Debug.Log("Game Lost");
         gameLostPanel.SetActive(true);
+        StopCoroutine(nameof(CountDown));
+        TimeToLose = 0;
     }
 
     IEnumerator CountDown()
@@ -59,7 +62,6 @@ public class TimeManager : MonoBehaviour
         }
         if (gameLost == false)
         {
-            gameLost = true;
             LoseGame();
         }
     }

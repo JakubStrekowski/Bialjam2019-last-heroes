@@ -8,15 +8,19 @@ public abstract class Hero : MonoBehaviour
     public Transform head;
     public Transform body;
     public Transform legs;
+    public GameObject gameMaster;
     private float stoppingRatio=0.98f;
     protected bool isOnGround;
     protected Rigidbody2D rb;
     public Animator animator;
     private bool isFacingRight=true;
+    private TimeManager timeManager;
+    private bool dead = false;
 	
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        timeManager = gameMaster.GetComponent<TimeManager>();
     }
     
     // Start is called before the first frame update
@@ -28,6 +32,10 @@ public abstract class Hero : MonoBehaviour
     // Update is called once per frame
     public void FixedUpdate()
     {
+        if (dead)
+        {
+            return;
+        }
         
         animator.SetFloat("Speed",Mathf.Abs(rb.velocity.x));
 
@@ -87,6 +95,10 @@ public abstract class Hero : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("Dead");
+        timeManager.LoseGame();
+        dead = true;
+        var heroContainer = GetComponentInParent<HeroContainer>();
+        heroContainer.dead = true;
+        // todo: add dead animation
     }
 }
