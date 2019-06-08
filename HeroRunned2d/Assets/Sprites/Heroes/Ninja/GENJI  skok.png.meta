@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: a20d7a636253b814bac12b7aa0e0b6c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2218300946459273719
+    second: GENJI  skok_0
+  - first:
+      213: -6484967089933620267
+    second: GENJI  skok_1
+  - first:
+      213: 7269136398274248533
+    second: GENJI  skok_2
+  - first:
+      213: 1291889053864882667
+    second: GENJI  skok_3
+  - first:
+      213: 3548218120418385592
+    second: GENJI  skok_4
+  - first:
+      213: -5140992376692178252
+    second: GENJI  skok_5
+  - first:
+      213: -6611858018006243649
+    second: GENJI  skok_6
+  - first:
+      213: -6289001927289319526
+    second: GENJI  skok_7
+  - first:
+      213: 8452054315827127288
+    second: GENJI  skok_8
+  - first:
+      213: 1942986298550006411
+    second: GENJI  skok_9
+  - first:
+      213: 3218436216105844680
+    second: GENJI  skok_10
+  - first:
+      213: -4422741944698320386
+    second: GENJI  skok_14
+  - first:
+      213: -3986651344999853744
+    second: GENJI  skok_15
+  - first:
+      213: 4975625288720239914
+    second: GENJI  skok_21
+  - first:
+      213: -2039523469209724959
+    second: GENJI  skok_27
+  - first:
+      213: -5918341887938527706
+    second: GENJI  skok_28
+  - first:
+      213: 7586911142265920223
+    second: GENJI  skok_29
+  - first:
+      213: 3400658537648223415
+    second: GENJI  skok_30
+  - first:
+      213: -281345539601120948
+    second: GENJI  skok_31
+  - first:
+      213: 595393937680826373
+    second: GENJI  skok_16
+  - first:
+      213: 1790621374232979806
+    second: GENJI  skok_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GENJI  skok_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 318
+        width: 122
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cd82b191e64ec4293e3afe25ec13d6
+      internalID: 2218300946459273719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 318
+        width: 126
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae70ac3f7e256c42916edd40551b6b6
+      internalID: -6484967089933620267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 310
+        width: 158
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f9cafbde073b428bdc5e7de5ecaca
+      internalID: 7269136398274248533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 309
+        width: 158
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afb68ebb96af5b449d10131a460c253
+      internalID: 1291889053864882667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 305
+        width: 160
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c07443cfc12b45903ac5c9ea6c8eb
+      internalID: 3548218120418385592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 338
+        width: 160
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1b8a005cac4204fb483fdcab4c19bc
+      internalID: -5140992376692178252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_6
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 340
+        width: 142
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55355afe2333350479b5ffc96e609bb4
+      internalID: -6611858018006243649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_7
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 346
+        width: 148
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab9c3ed65d1a714e9803e650b1643d3
+      internalID: -6289001927289319526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_8
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 346
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d616e7c9162c84c8b1d4a9b09797c7
+      internalID: 8452054315827127288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_9
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 350
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970184b62d9751469a843dc487aa376
+      internalID: 1942986298550006411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_10
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 349
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5021ab0030c29e45a3774292c7e5973
+      internalID: 3218436216105844680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 92
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72742016765a2e449a55acf0dd3ca76
+      internalID: -4422741944698320386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 42
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ec7fb0b6c91c4d9af4b073be29e78
+      internalID: -3986651344999853744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 49
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0754832017fef4a9ca7dad3f407e3c
+      internalID: 4975625288720239914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_27
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 40
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b7233e878ae9c4a814fc6d1adabf3f
+      internalID: -2039523469209724959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_28
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 46
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8937eaac99e4c6438a94e5e1dc22ffc
+      internalID: -5918341887938527706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf88e2f0b9b224281dad0adc893d62
+      internalID: 7586911142265920223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_30
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 32
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6123a0940c2294e438404cd5dd001f43
+      internalID: 3400658537648223415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_31
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 136
+        width: 68
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e32e145e1a19cf4db8e0a52ea84f7bd
+      internalID: -281345539601120948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 36
+        width: 166
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c526816a8f731ff4eb56309d13bdbb7c
+      internalID: 595393937680826373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  skok_17
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 29
+        width: 167
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e394bb0a12fae429416b1eaa7e6eeb
+      internalID: 1790621374232979806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a041078b11d04446b44f36210bbd951
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

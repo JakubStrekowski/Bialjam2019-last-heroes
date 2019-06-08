@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public float movementSpeed = 3f;
     public Rigidbody2D rb;
     public Collider2D attackCollider;
-
+    public Animator animator;
     int currentWaypoint;
     float moveDirection;
     [HideInInspector]
@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+
         if (ismoving)
         {
             float distance = Mathf.Abs(waypoints[currentWaypoint].position.x - transform.position.x);
@@ -54,6 +56,7 @@ public class Enemy : MonoBehaviour
         //TODO start idle animation
         yield return new WaitForSeconds(2f);
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+
         //TODO start moving animation
         ismoving = true;
     }
@@ -66,13 +69,18 @@ public class Enemy : MonoBehaviour
             ismoving = false;
             if (attackWithDamage)
             {
+                animator.SetTrigger("Attack");
+
                 Debug.Log("attacking with hit");
             }
             else
             {
                 attackCollider.enabled = false;
+                animator.SetTrigger("Attack");
+
                 Debug.Log("attacking with miss");
             }
+            
             //TODO start attack animation
             
             yield return new WaitForSeconds(2f);

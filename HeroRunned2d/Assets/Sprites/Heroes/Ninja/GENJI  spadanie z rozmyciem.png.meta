@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: cde652d62fb225e4880f978fe4fd5ae3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8694872108694995866
+    second: GENJI  spadanie z rozmyciem_0
+  - first:
+      213: -6347545750446126066
+    second: GENJI  spadanie z rozmyciem_1
+  - first:
+      213: 4469739899691592039
+    second: GENJI  spadanie z rozmyciem_2
+  - first:
+      213: -8589244384721724327
+    second: GENJI  spadanie z rozmyciem_3
+  - first:
+      213: -2086693541016652916
+    second: GENJI  spadanie z rozmyciem_6
+  - first:
+      213: 4869434930529924237
+    second: GENJI  spadanie z rozmyciem_8
+  - first:
+      213: -9109782390579024155
+    second: GENJI  spadanie z rozmyciem_9
+  - first:
+      213: -5876689534528121146
+    second: GENJI  spadanie z rozmyciem_12
+  - first:
+      213: 9091146773586560589
+    second: GENJI  spadanie z rozmyciem_13
+  - first:
+      213: -3485566488305199215
+    second: GENJI  spadanie z rozmyciem_14
+  - first:
+      213: 7046870357766385895
+    second: GENJI  spadanie z rozmyciem_15
+  - first:
+      213: 5291620588410211901
+    second: GENJI  spadanie z rozmyciem_17
+  - first:
+      213: -6151982089579998995
+    second: GENJI  spadanie z rozmyciem_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 46
+        width: 148
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2449026bebbf4458e8e74d57e1ae5d
+      internalID: 8694872108694995866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 92
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c54f6ddf2ddc24f99b6f0bc6a3cc8c
+      internalID: -6347545750446126066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 43
+        width: 142
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b7ea961532d5b4fb83c59d20edf45e
+      internalID: 4469739899691592039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 32
+        width: 161
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546840c9d0a0e43468365366c449985d
+      internalID: -8589244384721724327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 29
+        width: 158
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453b8fb0163e7e742b0602c7282b0fe0
+      internalID: -2086693541016652916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 49
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d5459e11ce50f408eb395eabb91696
+      internalID: 4869434930529924237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 65
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c13a5abcbe09b4883c5c856e5647db
+      internalID: -9109782390579024155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e7cd367409f0f4ba141a83f10f1816
+      internalID: -5876689534528121146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7802626079922a44eb526251d4cca764
+      internalID: 9091146773586560589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 46
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f57a7645d90e84483aef1b2f8b4981
+      internalID: -3485566488305199215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 49
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f2428919cf71b43b57eb46e4e2d563
+      internalID: 7046870357766385895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 46
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17e76620cf1dec4f96e7aadef9624fb
+      internalID: 5291620588410211901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GENJI  spadanie z rozmyciem_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 40
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f815f84b9e515df4485055c1b95fdd25
+      internalID: -6151982089579998995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5504677a53a369146aa5e5855532f5fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
