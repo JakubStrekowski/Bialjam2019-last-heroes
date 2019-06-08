@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3765332990069328151}
   m_Layer: 0
   m_Name: EnemyAttackCollider
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
