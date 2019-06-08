@@ -16,7 +16,7 @@ public class Technomancer : Hero
     private void FixedUpdate()
     {
         base.FixedUpdate();
-        if (Input.GetAxis("Ability")>0.3f&&skillReady)
+        if (Input.GetAxis("Ability") > 0.3f && skillReady)
         {
             StartCoroutine("StopSkill");
         }
@@ -27,9 +27,9 @@ public class Technomancer : Hero
         skillReady = false;
         //todo start animation
         yield return new WaitForSeconds(1);
-        GameObject ballOfTime= Instantiate(timeSphere, transform.position, Quaternion.identity);
+        timeSphere.SetActive(true);
         yield return new WaitForSeconds(4);
-        Destroy(ballOfTime);
+        timeSphere.SetActive(false);
         yield return new WaitForSeconds(4);
         skillReady = true;
     }
