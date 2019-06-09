@@ -39,8 +39,11 @@ public class TimeManager : MonoBehaviour
     {
         if (Input.GetAxis("Submit") > 0&&gameLost)
         {
-            Debug.Log("lol");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else if (Input.GetAxis("Cancel") > 0)
+        {
+            SceneManager.LoadScene(0);
         }
     }
 
