@@ -56,7 +56,6 @@ public class HeroesPanel : MonoBehaviour
         switch (heroType)
         {
             case HeroContainer.HeroType.Ninja:
-                Debug.Log(ninjaMaskImage == null);
                 StartCoroutine(FlashPortraits(ninjaMaskImage));
                 ResetImageAlpha(ninjaImage);
                 FadeImage(tankImage);
@@ -64,7 +63,6 @@ public class HeroesPanel : MonoBehaviour
                 FadeImage(warriorImage);
                 break;
             case HeroContainer.HeroType.Tank:
-                Debug.Log(tankMaskImage == null);
                 StartCoroutine(FlashPortraits(tankMaskImage));
                 FadeImage(ninjaImage);
                 ResetImageAlpha(tankImage);
@@ -72,7 +70,6 @@ public class HeroesPanel : MonoBehaviour
                 FadeImage(warriorImage);
                 break;
             case HeroContainer.HeroType.Technomancer:
-                Debug.Log(technomancerMaskImage == null);
                 StartCoroutine(FlashPortraits(technomancerMaskImage));
                 FadeImage(ninjaImage);
                 FadeImage(tankImage);
@@ -80,7 +77,6 @@ public class HeroesPanel : MonoBehaviour
                 FadeImage(warriorImage);
                 break;
             case HeroContainer.HeroType.Warrior:
-                Debug.Log(warriorMaskImage == null);
                 StartCoroutine(FlashPortraits(warriorMaskImage));
                 FadeImage(ninjaImage);
                 FadeImage(tankImage);

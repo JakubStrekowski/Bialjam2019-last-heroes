@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Tank : Hero
 {
-    
     public bool isWallInRange = false;
     private GameObject wallToDestroy;
-    bool punchReady = true;
+    private HeroContainer heroContainer;
+    
     private void Awake()
     {
         base.Awake();
+        heroContainer = GetComponentInParent<HeroContainer>();
     }
     // Start is called before the first frame update
     
@@ -19,9 +20,8 @@ public class Tank : Hero
         base.FixedUpdate();
         if (isWallInRange)
         {
-            if (Input.GetAxis("Ability")>0.3f&&punchReady)
+            if (Input.GetAxis("Ability") > 0.3f && heroContainer.tankSkillState.isSkillActive)
             {
-                punchReady = false;
                 StartCoroutine("PrepareToDestroy");
             }
         }
@@ -46,23 +46,11 @@ public class Tank : Hero
     {
         GameObject wall = wallToDestroy;
         animator.SetBool("Hit", true);
-
-        //animator.Play("Hit");
-        //todo start wall destroy animation
-        if (wall != null)
-        {
-            wall.GetComponent<Collider2D>().enabled = false;
-        }
-            yield return new WaitForSeconds(1);
-        if (wall != null)
-        {
-            Destroy(wall);
-        }
+        
+        heroContainer.StartSkill(HeroContainer.HeroType.Tank);
+        yield return new WaitForSeconds(1.3f);
 
         animator.SetBool("Hit", false);
-        Debug.Log("Hit anima");
-        punchReady = true;
-
     }
 
 
