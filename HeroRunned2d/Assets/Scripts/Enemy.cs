@@ -125,7 +125,9 @@ public class Enemy : BaseEnemy
 
     public override void Stop()
     {
+        Debug.Log("set is frozen");
         isFrozen = true;
+        rb.velocity = Vector2.zero;
     }
 
     public override void Resume()
