@@ -19,7 +19,10 @@ public abstract class Hero : MonoBehaviour
     private bool isFacingRight=true;
     private TimeManager timeManager;
     private bool dead = false;
-	
+    public AudioSource audio;
+    public AudioClip audioClip;
+    public AudioClip audioClip2;
+
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -98,6 +101,7 @@ public abstract class Hero : MonoBehaviour
 
     public void Die()
     {
+        audio.PlayOneShot(audioClip2);
         rb.velocity = Vector2.zero;
         GetComponent<Rigidbody2D>().simulated = false;
         GetComponent<Collider2D>().enabled = false;

@@ -7,7 +7,9 @@ using UnityEngine;
 public class TurretVision : BaseEnemy
 {
     public Animator animator;
-
+    public AudioClip audioClip;
+    public AudioClip audioClip2;
+    public AudioSource audioSource;
     public float shotDelay = 1f;
     private float radius;
     private IEnumerator coroutine;
@@ -62,7 +64,8 @@ public class TurretVision : BaseEnemy
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
                 animator.SetTrigger("Hit");
-
+                audioSource.PlayOneShot(audioClip);
+                audioSource.PlayOneShot(audioClip2);
                 hero.Die();
                 break;
             }
@@ -71,6 +74,8 @@ public class TurretVision : BaseEnemy
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
                 animator.SetTrigger("Hit");
+                audioSource.PlayOneShot(audioClip);
+                audioSource.PlayOneShot(audioClip2);
 
                 hero.Die();
                 break;
@@ -80,6 +85,8 @@ public class TurretVision : BaseEnemy
             if (raycastHit.collider != null && raycastHit.collider.CompareTag("Hero"))
             {
                 animator.SetTrigger("Hit");
+                audioSource.PlayOneShot(audioClip);
+                audioSource.PlayOneShot(audioClip2);
 
                 hero.Die();
                 break;

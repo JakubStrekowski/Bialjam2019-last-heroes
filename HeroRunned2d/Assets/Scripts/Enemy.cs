@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Enemy : BaseEnemy
 {
+    public AudioClip audioClip;
+    public AudioClip audioClip2;
+
+    public AudioSource audioSource;
     public GameObject bloodParticle;
     bool isFrozen=false;
     public Transform[] waypoints;
@@ -103,6 +107,8 @@ public class Enemy : BaseEnemy
     private void Die()
     {
         Instantiate(bloodParticle, transform.position, Quaternion.identity);
+        audioSource.PlayOneShot(audioClip);
+        audioSource.PlayOneShot(audioClip2);
         GetComponent<Collider2D>().enabled = false;
         rb.simulated = false;
         StartCoroutine("DeathAnimation");

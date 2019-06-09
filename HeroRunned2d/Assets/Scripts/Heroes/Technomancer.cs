@@ -31,6 +31,8 @@ public class Technomancer : Hero
 
         //todo start animation
         yield return new WaitForSeconds(1);
+        audio.PlayOneShot(audioClip);
+
         timeSphere.SetActive(true);
         animator.SetBool("IsStopTime", false);
         timeSphere.GetComponent<Animator>().SetBool("StopTime", false);

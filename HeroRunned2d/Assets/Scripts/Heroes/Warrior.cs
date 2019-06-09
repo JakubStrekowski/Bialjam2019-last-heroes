@@ -18,6 +18,8 @@ public class Warrior : Hero
 
     IEnumerator AttackSkill()
     {
+        
+        audio.PlayOneShot(audioClip);
         isAbilityReady = false;
         GetComponent<Animator>().SetBool("IsAttacking", true);
         //todo start animation
