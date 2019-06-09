@@ -134,16 +134,44 @@ public class HeroContainer : MonoBehaviour
         switch (heroType)
         {
             case HeroType.Ninja:
-                ninjaCooldownImage.enabled = true;
+                if (ninjaSkillState.isSkillActive)
+                {
+                    ninjaCooldownImage.enabled = false;
+                }
+                else
+                {
+                    ninjaCooldownImage.enabled = true;
+                }
                 break;
             case HeroType.Tank:
-                tankCooldownImage.enabled = true;
+                if (tankSkillState.isSkillActive)
+                {
+                    tankCooldownImage.enabled = false;
+                }
+                else
+                {
+                    tankCooldownImage.enabled = true;
+                }
                 break;
             case HeroType.Technomancer:
-                technomancerCooldownImage.enabled = true;
+                if (technomancerSkillState.isSkillActive)
+                {
+                    technomancerCooldownImage.enabled = false;
+                }
+                else
+                {
+                    technomancerCooldownImage.enabled = true;
+                }
                 break;
             case HeroType.Warrior:
-                warriorCooldownImage.enabled = true;
+                if (warriorSkillState.isSkillActive)
+                {
+                    warriorCooldownImage.enabled = false;
+                }
+                else
+                {
+                    warriorCooldownImage.enabled = true;
+                }
                 break;
         }
         
