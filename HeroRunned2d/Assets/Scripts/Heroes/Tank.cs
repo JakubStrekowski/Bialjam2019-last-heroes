@@ -46,10 +46,12 @@ public class Tank : Hero
     {
         GameObject wall = wallToDestroy;
         animator.SetBool("Hit", true);
-        
         heroContainer.StartSkill(HeroContainer.HeroType.Tank);
+        if (wall != null)
+        {
+            wall.GetComponent<DestroyableWall>().StartDestroying();
+        }
         yield return new WaitForSeconds(1.3f);
-
         animator.SetBool("Hit", false);
     }
 

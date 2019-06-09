@@ -56,7 +56,7 @@ public class Enemy : BaseEnemy
     {
         ismoving = false;
         //TODO start idle animation
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.01f);
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 
         //TODO start moving animation
