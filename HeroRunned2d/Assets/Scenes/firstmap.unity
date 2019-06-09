@@ -1409,6 +1409,11 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3765332990069328151, guid: 7f08fd2c0c487864982b5c3d3c00f885,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f08fd2c0c487864982b5c3d3c00f885, type: 3}
 --- !u!1 &708889275
@@ -7650,6 +7655,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 140471ba565a8594aa56b32056c3c1a9, type: 3}
+--- !u!1 &917376509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 217028898, guid: 140471ba565a8594aa56b32056c3c1a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 917376508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &917376510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1448749761, guid: 140471ba565a8594aa56b32056c3c1a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 917376508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &917376511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1509311822, guid: 140471ba565a8594aa56b32056c3c1a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 917376508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &917376512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196224001, guid: 140471ba565a8594aa56b32056c3c1a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 917376508}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &985462920 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8957107241804665037, guid: 140471ba565a8594aa56b32056c3c1a9,
@@ -8163,6 +8192,26 @@ PrefabInstance:
       propertyPath: heroesPanelObj
       value: 
       objectReference: {fileID: 1981998803}
+    - target: {fileID: 8149965233493183652, guid: d8838b2cbf6dc3a409198776df17c48f,
+        type: 3}
+      propertyPath: ninjaCooldown
+      value: 
+      objectReference: {fileID: 917376512}
+    - target: {fileID: 8149965233493183652, guid: d8838b2cbf6dc3a409198776df17c48f,
+        type: 3}
+      propertyPath: tankCooldown
+      value: 
+      objectReference: {fileID: 917376511}
+    - target: {fileID: 8149965233493183652, guid: d8838b2cbf6dc3a409198776df17c48f,
+        type: 3}
+      propertyPath: technomancerCooldown
+      value: 
+      objectReference: {fileID: 917376510}
+    - target: {fileID: 8149965233493183652, guid: d8838b2cbf6dc3a409198776df17c48f,
+        type: 3}
+      propertyPath: warriorCooldown
+      value: 
+      objectReference: {fileID: 917376509}
     - target: {fileID: 4976895068065740585, guid: d8838b2cbf6dc3a409198776df17c48f,
         type: 3}
       propertyPath: gameMaster
