@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class HeroContainer : MonoBehaviour
 {
+    public GameObject swapEffect;
+    private Vector3 savedVelocity;
+
     public enum HeroType
     {
         Ninja,
@@ -50,6 +53,7 @@ public class HeroContainer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        savedVelocity = Vector3.zero;
         ninjaSkillState = new SkillState
         {
             isSkillActive = true,
@@ -129,7 +133,7 @@ public class HeroContainer : MonoBehaviour
         {
             return;
         }
-
+        savedVelocity = activeHero.GetComponent<Rigidbody2D>().velocity;
         HideAllCooldowns();
         switch (heroType)
         {
@@ -178,8 +182,10 @@ public class HeroContainer : MonoBehaviour
         activeHero = hero;
         activeHero.transform.position = previousHero.transform.position;
         activeHero.SetActive(true);
+        Instantiate(swapEffect, activeHero.transform.position, Quaternion.identity);
         cameraFollowing.Target = activeHero.transform;
         previousHero.SetActive(false);
+        activeHero.GetComponent<Rigidbody2D>().velocity = savedVelocity;
         heroesPanel.ChangeActiveHero(heroType);
     }
 

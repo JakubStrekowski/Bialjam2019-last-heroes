@@ -16453,6 +16453,12 @@ PrefabInstance:
       propertyPath: warriorCooldown
       value: 
       objectReference: {fileID: 917376509}
+    - target: {fileID: 8149965233493183652, guid: d8838b2cbf6dc3a409198776df17c48f,
+        type: 3}
+      propertyPath: swapEffect
+      value: 
+      objectReference: {fileID: 8320457692013771847, guid: 05b4bbd62d380f243b12064d24381e2e,
+        type: 3}
     - target: {fileID: 4976895068065740585, guid: d8838b2cbf6dc3a409198776df17c48f,
         type: 3}
       propertyPath: gameMaster
