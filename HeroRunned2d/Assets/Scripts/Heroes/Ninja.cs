@@ -5,25 +5,24 @@ using UnityEngine;
 public class Ninja : Hero
 {
     public Transform groundCheck;
-    bool jumpReady;
     bool didSecondJump;
     bool finishedHolding;
     float jumpCooldown = 1f;
+    private HeroContainer heroContainer;
 
     int groundLayer;
     private void Awake()
     {
         base.Awake();
+        heroContainer = GetComponentInParent<HeroContainer>();
     }
     // Start is called before the first frame update
     void Start()
     {
         groundLayer = LayerMask.NameToLayer("GroundDetect");
         isOnGround = false;
-        jumpReady = false;
         didSecondJump = true;
         finishedHolding = true;
-        StartCoroutine("JumpCooldown");
     }
 
     // Update is called once per frame
@@ -51,9 +50,9 @@ public class Ninja : Hero
         }
         if (isOnGround)
         {
-            if (jumpReady&&Input.GetAxis("Ability") > 0.3)
+            if (heroContainer.ninjaSkillState.isSkillActive && Input.GetAxis("Ability") > 0.3)
             {
-                StartCoroutine("JumpCooldown");
+                heroContainer.StartSkill(HeroContainer.HeroType.Ninja);
                 rb.AddForce(Vector2.up * 40, ForceMode2D.Impulse);
                 animator.SetTrigger("TakeOF");
                 animator.SetBool("Ascending", true);
@@ -81,12 +80,9 @@ public class Ninja : Hero
             }
         }
     }
-    
+
     IEnumerator JumpCooldown()
     {
-        jumpReady = false;
-            yield return new WaitForSeconds(jumpCooldown);
-        jumpReady = true;
+        yield return new WaitForSeconds(jumpCooldown);
     }
-
 }
