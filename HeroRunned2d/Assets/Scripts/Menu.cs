@@ -22,4 +22,9 @@ public class Menu : MonoBehaviour
     {
         audioMixer.SetFloat("volumeXD", volume);
     }
+
+    public void PlayGameByID(int id)
+    {
+        SceneManager.LoadScene(id);
+    }
 }
