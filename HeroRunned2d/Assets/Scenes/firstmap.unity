@@ -392,6 +392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
+      propertyPath: lookAt
+      value: 
+      objectReference: {fileID: 1774240023}
     - target: {fileID: 1239606859, guid: 077b501ce133dd4409ef234341065313, type: 3}
       propertyPath: m_Offset.x
       value: 0.195355
@@ -404,10 +408,6 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -2.4419367
       objectReference: {fileID: 0}
-    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
-      propertyPath: lookAt
-      value: 
-      objectReference: {fileID: 1774240023}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 077b501ce133dd4409ef234341065313, type: 3}
 --- !u!1 &165368867
@@ -833,7 +833,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 275159411}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6e0cae7755554794098a6bb50d70f7f1, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -16031,7 +16031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FollowSpeed: 4
   Target: {fileID: 0}
-  yOffset: 7.3
+  yOffset: 4.62
   z: -10
 --- !u!1 &1345762489
 GameObject:
@@ -16663,6 +16663,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
+      propertyPath: lookAt
+      value: 
+      objectReference: {fileID: 1774240023}
     - target: {fileID: 1239606859, guid: 077b501ce133dd4409ef234341065313, type: 3}
       propertyPath: m_Offset.x
       value: 0.195355
@@ -16675,10 +16679,6 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -2.4419367
       objectReference: {fileID: 0}
-    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
-      propertyPath: lookAt
-      value: 
-      objectReference: {fileID: 1774240023}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 077b501ce133dd4409ef234341065313, type: 3}
 --- !u!1 &1981998803 stripped
@@ -17082,6 +17082,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
+      propertyPath: lookAt
+      value: 
+      objectReference: {fileID: 1774240023}
     - target: {fileID: 1239606859, guid: 077b501ce133dd4409ef234341065313, type: 3}
       propertyPath: m_Offset.x
       value: 0.195355
@@ -17094,9 +17098,5 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -2.4419367
       objectReference: {fileID: 0}
-    - target: {fileID: 2043343539, guid: 077b501ce133dd4409ef234341065313, type: 3}
-      propertyPath: lookAt
-      value: 
-      objectReference: {fileID: 1774240023}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 077b501ce133dd4409ef234341065313, type: 3}
