@@ -56,6 +56,7 @@ public class Ninja : Hero
                 rb.AddForce(Vector2.up * 40, ForceMode2D.Impulse);
                 animator.SetTrigger("TakeOF");
                 animator.SetBool("Ascending", true);
+                audio.PlayOneShot(audioClip);
                 //TODO Start jump anim
                 isOnGround = false;
                 finishedHolding = false;
@@ -71,6 +72,7 @@ public class Ninja : Hero
                     rb.AddForce(Vector2.up * 40, ForceMode2D.Impulse);
                     animator.SetBool("Ascending", true);
                     animator.SetTrigger("TakeOF");
+                    audio.PlayOneShot(audioClip);
 
                     //TODO Start  jump anim
                     didSecondJump = true;
