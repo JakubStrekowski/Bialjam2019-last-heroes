@@ -69,6 +69,8 @@ public class TimeManager : MonoBehaviour
         if (gameLost == false)
         {
             LoseGame();
+            var hero = FindObjectOfType<Hero>();
+            hero.Die();
         }
     }
 
