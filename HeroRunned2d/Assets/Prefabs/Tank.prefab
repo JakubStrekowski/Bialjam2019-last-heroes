@@ -201,8 +201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodParticle: {fileID: 446108038729996346, guid: 6779d76de9b4c9344acb211731b3cf1d,
     type: 3}
-  movementSpeed: 6
-  maximumSpeed: 6
+  movementSpeed: 3
+  maximumSpeed: 3
   accelerateration: 0
   head: {fileID: 3802323183616545159}
   body: {fileID: 3561131654514011160}
