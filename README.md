@@ -7,3 +7,7 @@ Controls:
 Arrows - movement;
 'w', 's', 'a', 'd' - switch between heroes;
 'space' - special ability
+
+
+Game jam submission:
+https://glitchygames.itch.io/the-chase
